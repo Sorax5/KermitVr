@@ -41,8 +41,6 @@ public class VrDetector : MonoBehaviour
         Debug.Log("XRLoader name: " + xrLoader.name);
         xrOrigin.SetActive(true);
         desktopOrigin.SetActive(false);
-        
-        
 
     }
 }
