@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR;
@@ -14,6 +15,8 @@ public class QTESystem : MonoBehaviour
 {
     private QteType qteType = QteType.Single;
     public float qteDuration = 5f;
+    public Canvas canvas;
+    public TMPro.TMP_Text text;
 
     private bool qteActive = false;
     private int currentTouchIndex = 0;
@@ -76,17 +79,28 @@ public class QTESystem : MonoBehaviour
         Debug.Log($"QTE unique démarré ! Appuyez sur la touche '{qteSequence[currentTouchIndex]}' avant {qteDuration} secondes.");
         qteActive = true;
         timer = 0f;
+        canvas.gameObject.SetActive(true);
+        text.text = qteSequence[currentTouchIndex].ToString();
     }
 
     void QTECompleted()
     {
         Debug.Log("QTE réussi !");
-        ResetQTE();
+        StartCoroutine(ResetCoroutine(Color.green));
     }
 
     void QTEFailed()
     {
         Debug.Log("QTE échoué !");
+        StartCoroutine(ResetCoroutine(Color.red));
+    }
+
+    private IEnumerator ResetCoroutine(Color color)
+    {
+        text.color = color;
+
+        yield return new WaitForSeconds(2);
+
         ResetQTE();
     }
 
@@ -95,6 +109,8 @@ public class QTESystem : MonoBehaviour
         qteActive = false;
         currentTouchIndex = 0;
         timer = 0f;
+        canvas.gameObject.SetActive(false);
+        text.text = "";
         Debug.Log("QTE réinitialisé.");
     }
 
