@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.07
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -27,7 +27,7 @@ RenderSettings:
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 88266ef8251fbd9478f834552a3c0c7e, type: 2}
-  m_HaloStrength: 0.5
+  m_HaloStrength: 0.236
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -133,7 +133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2012703252544792249, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 496.97278
+      value: 253.9
       objectReference: {fileID: 0}
     - target: {fileID: 2012703252544792249, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -141,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2012703252544792249, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 75.583786
+      value: 50.48
       objectReference: {fileID: 0}
     - target: {fileID: 2012703252544792249, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -209,7 +209,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.17173372, g: 0.1954374, b: 0.2264151, a: 1}
+  m_Color: {r: 0.197864, g: 0.22627267, b: 0.26415092, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -485,7 +485,7 @@ Terrain:
   m_TerrainData: {fileID: 15600000, guid: cc20d888663a4134d8713b6ffc183716, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
+  m_TreeCrossFadeLength: 200
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
