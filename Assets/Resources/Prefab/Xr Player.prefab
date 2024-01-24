@@ -818,6 +818,7 @@ GameObject:
   - component: {fileID: 4506304260046844895}
   - component: {fileID: 790030301652863110}
   - component: {fileID: 5905723753744186524}
+  - component: {fileID: 4823210115973060391}
   m_Layer: 0
   m_Name: Xr Player
   m_TagString: Untagged
@@ -893,7 +894,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 3
   m_Height: 2
-  m_Radius: 0.4
+  m_Radius: 0.08
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
@@ -914,6 +915,26 @@ MonoBehaviour:
   m_LocomotionProvider: {fileID: 7032418514969195614}
   m_MinHeight: 1
   m_MaxHeight: 2
+--- !u!114 &4823210115973060391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7517530156485632958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496880615cd240be960d436c1c8ae570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 3730179123559683178}
+  m_ClimbSettings:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_AllowFreeXMovement: 1
+      m_AllowFreeYMovement: 1
+      m_AllowFreeZMovement: 1
+    m_Variable: {fileID: 0}
 --- !u!1 &8019479972680768412
 GameObject:
   m_ObjectHideFlags: 0
