@@ -19,7 +19,6 @@ public class KermitIA : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(distanceToPlayerNoY());
         if (distanceToPlayerNoY() < 20)
         {
             if (!isStarted)
@@ -28,7 +27,7 @@ public class KermitIA : MonoBehaviour
             }
         }
         
-        if (isStarted || !isAttacking)
+        if (isStarted && !isAttacking)
         {
             if (distanceToPlayerNoY() < 2)
             {
@@ -38,7 +37,7 @@ public class KermitIA : MonoBehaviour
             {
                 this.MoveRandomly();
             }
-            else
+            else if (distanceToPlayerNoY() < 100)
             {
                 this.MoveTowardsPlayerWithObstacleAvoidance();
             }
