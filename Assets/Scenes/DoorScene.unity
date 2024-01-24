@@ -394,6 +394,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 134736892613393826, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2012703252544792249, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.874
@@ -434,15 +438,299 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3719000017487207953, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605191964592673630, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6766367282959216346, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7517530156485632958, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
       propertyPath: m_Name
       value: Xr Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8156445391958958633, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 134736892613393826, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+    - {fileID: 5605191964592673630, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+    - {fileID: 6766367282959216346, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+    - {fileID: 8156445391958958633, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+    - {fileID: 41582183421113634, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+    - {fileID: 4512614690100543175, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+    - {fileID: 8927279346103062513, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+    - {fileID: 8822549190598614312, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8043480426854638217, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 746914589}
+    - targetCorrespondingSourceObject: {fileID: 8043480426854638217, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 746914596}
+    - targetCorrespondingSourceObject: {fileID: 4482440524399933952, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 746914591}
+    - targetCorrespondingSourceObject: {fileID: 4482440524399933952, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 746914594}
   m_SourcePrefab: {fileID: 100100000, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+--- !u!1 &746914588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8043480426854638217, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+  m_PrefabInstance: {fileID: 746914587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &746914589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746914588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 1086933451}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectActionTrigger: 1
+  m_HideControllerOnSelect: 0
+  m_AllowHoveredActivate: 0
+  m_TargetPriorityMode: 0
+  m_PlayAudioClipOnSelectEntered: 0
+  m_AudioClipForOnSelectEntered: {fileID: 0}
+  m_PlayAudioClipOnSelectExited: 0
+  m_AudioClipForOnSelectExited: {fileID: 0}
+  m_PlayAudioClipOnSelectCanceled: 0
+  m_AudioClipForOnSelectCanceled: {fileID: 0}
+  m_PlayAudioClipOnHoverEntered: 0
+  m_AudioClipForOnHoverEntered: {fileID: 0}
+  m_PlayAudioClipOnHoverExited: 0
+  m_AudioClipForOnHoverExited: {fileID: 0}
+  m_PlayAudioClipOnHoverCanceled: 0
+  m_AudioClipForOnHoverCanceled: {fileID: 0}
+  m_AllowHoverAudioWhileSelecting: 1
+  m_PlayHapticsOnSelectEntered: 0
+  m_HapticSelectEnterIntensity: 0
+  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectExited: 0
+  m_HapticSelectExitIntensity: 0
+  m_HapticSelectExitDuration: 0
+  m_PlayHapticsOnSelectCanceled: 0
+  m_HapticSelectCancelIntensity: 0
+  m_HapticSelectCancelDuration: 0
+  m_PlayHapticsOnHoverEntered: 0
+  m_HapticHoverEnterIntensity: 0
+  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverExited: 0
+  m_HapticHoverExitIntensity: 0
+  m_HapticHoverExitDuration: 0
+  m_PlayHapticsOnHoverCanceled: 0
+  m_HapticHoverCancelIntensity: 0
+  m_HapticHoverCancelDuration: 0
+  m_AllowHoverHapticsWhileSelecting: 1
+  m_ImproveAccuracyWithSphereCollider: 0
+  m_PhysicsLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_PhysicsTriggerInteraction: 1
+--- !u!1 &746914590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4482440524399933952, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+  m_PrefabInstance: {fileID: 746914587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &746914591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746914590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectActionTrigger: 1
+  m_HideControllerOnSelect: 0
+  m_AllowHoveredActivate: 0
+  m_TargetPriorityMode: 0
+  m_PlayAudioClipOnSelectEntered: 0
+  m_AudioClipForOnSelectEntered: {fileID: 0}
+  m_PlayAudioClipOnSelectExited: 0
+  m_AudioClipForOnSelectExited: {fileID: 0}
+  m_PlayAudioClipOnSelectCanceled: 0
+  m_AudioClipForOnSelectCanceled: {fileID: 0}
+  m_PlayAudioClipOnHoverEntered: 0
+  m_AudioClipForOnHoverEntered: {fileID: 0}
+  m_PlayAudioClipOnHoverExited: 0
+  m_AudioClipForOnHoverExited: {fileID: 0}
+  m_PlayAudioClipOnHoverCanceled: 0
+  m_AudioClipForOnHoverCanceled: {fileID: 0}
+  m_AllowHoverAudioWhileSelecting: 1
+  m_PlayHapticsOnSelectEntered: 0
+  m_HapticSelectEnterIntensity: 0
+  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectExited: 0
+  m_HapticSelectExitIntensity: 0
+  m_HapticSelectExitDuration: 0
+  m_PlayHapticsOnSelectCanceled: 0
+  m_HapticSelectCancelIntensity: 0
+  m_HapticSelectCancelDuration: 0
+  m_PlayHapticsOnHoverEntered: 0
+  m_HapticHoverEnterIntensity: 0
+  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverExited: 0
+  m_HapticHoverExitIntensity: 0
+  m_HapticHoverExitDuration: 0
+  m_PlayHapticsOnHoverCanceled: 0
+  m_HapticHoverCancelIntensity: 0
+  m_HapticHoverCancelDuration: 0
+  m_AllowHoverHapticsWhileSelecting: 1
+  m_ImproveAccuracyWithSphereCollider: 0
+  m_PhysicsLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_PhysicsTriggerInteraction: 1
+--- !u!135 &746914594
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746914590}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &746914596
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746914588}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!82 &1036778684 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3933123672604774154, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+  m_PrefabInstance: {fileID: 8236676772130055596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1036778685 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4241189781962086265, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+  m_PrefabInstance: {fileID: 8236676772130055596}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c74c477d81cf4cf409dfa1bf352d6c1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1086933450
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,6 +1168,66 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1086933451}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Deactivated.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1036778685}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Deactivated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Deactivated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1036778685}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ActivateTorch
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Deactivated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Deactivated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DeactivateTorch
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LightTorchScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Deactivated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LightTorchScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618536599469208607, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: m_Deactivated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241189781962086265, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1036778684}
     - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.56
