@@ -16,7 +16,7 @@ public class AudioPlayer : MonoBehaviour
     {
         float speed = 1.0f;
         objectToMove.transform.position += new Vector3(0, 0, speed * elapsedTime);
-        playerXR.transform.position = new Vector3(playerXR.transform.position.x, playerXR.transform.position.y, objectToMove.transform.position.z - 10f);
+        playerXR.transform.position = new Vector3(playerXR.transform.position.x, playerXR.transform.position.y, objectToMove.transform.position.z - 7f);
     }
 
     public void AddCommand(ICommand command)
