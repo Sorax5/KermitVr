@@ -7,6 +7,7 @@ public class KermitIA : MonoBehaviour
     public bool isStarted = false;
     private bool isStuck = false;
     private float stuckTime = 0;
+    private bool isAttacking = false;
 
     public GameObject kermit;
     public GameObject player;
@@ -27,7 +28,7 @@ public class KermitIA : MonoBehaviour
             }
         }
         
-        if (isStarted)
+        if (isStarted || !isAttacking)
         {
             if (distanceToPlayerNoY() < 2)
             {
@@ -71,7 +72,7 @@ public class KermitIA : MonoBehaviour
     private void MoveTowardsPlayerWithObstacleAvoidance()
     {
         RaycastHit hit;
-        if (Physics.Raycast(kermit.transform.position, kermit.transform.forward, out hit, 3f))
+        if (Physics.Raycast(kermit.transform.position, kermit.transform.forward, out hit, 1f))
         {
             if (!isStuck)
             {
@@ -79,8 +80,9 @@ public class KermitIA : MonoBehaviour
                 stuckTime = 20;
             }
             kermit.transform.Rotate(Vector3.up, 45f);
-        } 
-        else if (isStuck)
+        }
+        
+        if (isStuck)
         {
             stuckTime--;
             kermit.transform.position += kermit.transform.forward * 0.1f;
@@ -115,6 +117,10 @@ public class KermitIA : MonoBehaviour
 
     private void Attack()
     {
+        this.isAttacking = true;
+
         // Attaquer le joueur
+
+        this.isAttacking = false;
     }
 }
