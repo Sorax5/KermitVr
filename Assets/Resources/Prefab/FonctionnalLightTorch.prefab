@@ -465,10 +465,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c74c477d81cf4cf409dfa1bf352d6c1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 3933123672604774154}
   lightTorch: {fileID: 2828732724999060492}
-  torchOn: {fileID: 0}
-  torchOff: {fileID: 0}
+  torchOn: {fileID: 8300000, guid: cf87f860904930f41a922ef577406665, type: 3}
+  torchOff: {fileID: 8300000, guid: af42a342e8bc84f49a7196b9aca8df97, type: 3}
 --- !u!82 &3933123672604774154
 AudioSource:
   m_ObjectHideFlags: 0

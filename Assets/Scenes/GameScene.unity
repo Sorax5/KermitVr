@@ -9928,6 +9928,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: FunctionnalCar
       objectReference: {fileID: 0}
+    - target: {fileID: 8371961832633591937, guid: 1e3dbb41c92953e49a581c771d108cb9, type: 3}
+      propertyPath: m_Volume
+      value: 0.696
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371961832633591937, guid: 1e3dbb41c92953e49a581c771d108cb9, type: 3}
+      propertyPath: MaxDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8371961832633591937, guid: 1e3dbb41c92953e49a581c771d108cb9, type: 3}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 0.09166667
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12597,67 +12609,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8701817516336449241, guid: cf94a143e8c1e5046b9395e47ec29fdc, type: 3}
---- !u!1001 &1874440680
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.661772
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 13.347662
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283251307302561359, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951279781383470325, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_Name
-      value: FonctionnalLightTorch
-      objectReference: {fileID: 0}
-    - target: {fileID: 7951279781383470325, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 631e4fc5de5fd13409be2b4f75ad4b9a, type: 3}
 --- !u!64 &1887317281
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13674,4 +13625,3 @@ SceneRoots:
   - {fileID: 1598810120}
   - {fileID: 225996500}
   - {fileID: 610016702}
-  - {fileID: 1874440680}

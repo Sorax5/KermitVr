@@ -10,7 +10,7 @@ public class LightTorchScript : MonoBehaviour
     [SerializeField] private AudioClip torchOn;
     [SerializeField] private AudioClip torchOff;
     
-    private bool torchActive = false;
+    private bool torchActive = true;
     
     public void DeactivateTorch()
     {
