@@ -179,6 +179,18 @@ PrefabInstance:
       propertyPath: m_RequestedTrackingOriginMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5296948381821435329, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294030999811092131, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7195296972316438744, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7517530156485632958, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
       propertyPath: m_Name
       value: Xr Player
@@ -702,6 +714,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1443830143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7517530156485632958, guid: ce1d4ee1e94584a4a9b23d770db7027f, type: 3}
+  m_PrefabInstance: {fileID: 14298486}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1660722364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -921,7 +938,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 1
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &5831438711257027079
 MeshRenderer:
@@ -990,6 +1007,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7612346654615494194}
   - component: {fileID: 7612346654615494195}
+  - component: {fileID: 7612346654615494196}
+  - component: {fileID: 7612346654615494197}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -1111,6 +1130,42 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7612346654615494196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7129106262759638152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbeb311dd4fe6344aacf0ba09df1ec99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: b85f6850b9a7e014ea51db14be442eac, type: 3}
+  - {fileID: 8300000, guid: a7b457a98e19f1f4d824174ac8b1c250, type: 3}
+  - {fileID: 8300000, guid: 2b4259d99ecbe02489273daef9fd8615, type: 3}
+  - {fileID: 8300000, guid: 09d6f7d7035c7c946be0468881198ac7, type: 3}
+  - {fileID: 8300000, guid: a0a8edfc840a5c440a78a70df4cffc5f, type: 3}
+  - {fileID: 8300000, guid: 11e8c6084729552478c9d9928907b4ad, type: 3}
+  - {fileID: 8300000, guid: 23746327f60ecfd46bfd8b642a5c3299, type: 3}
+  - {fileID: 8300000, guid: 629864087526f8b4b83d7110f5bb2391, type: 3}
+  - {fileID: 8300000, guid: 494d3cae704f268448fac7a8fad3faa6, type: 3}
+--- !u!114 &7612346654615494197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7129106262759638152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2cfd409cbf6fa4fb9088f66fa8af64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToMove: {fileID: 7129106262759638152}
+  playerXR: {fileID: 1443830143}
 --- !u!33 &7730594972067080036
 MeshFilter:
   m_ObjectHideFlags: 0

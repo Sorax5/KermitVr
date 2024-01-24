@@ -9,5 +9,6 @@ namespace Assets.Scripts
     public interface ICommand
     {
         void Execute();
+        float GetAudioClipLength();
     }
 }

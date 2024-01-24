@@ -26,5 +26,15 @@ namespace Assets.Scripts
                 audioSource.Play();
             }
         }
+
+        public float GetAudioClipLength()
+        {
+            return audioClip.length;
+        }
+
+        public bool IsAudioPlaying()
+        {
+            return audioSource.isPlaying;
+        }
     }
 }
